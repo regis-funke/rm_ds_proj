@@ -13,7 +13,7 @@
     <parameter key="encoding" value="SYSTEM"/>
     <process expanded="true">
       <operator activated="true" class="read_excel" compatibility="9.10.001" expanded="true" height="68" name="Read Excel GDP" width="90" x="45" y="85">
-        <parameter key="excel_file" value="/Users/viktoria/Desktop/Projekt_IntroToDS/Ohne Titel/datasets/GDP.xlsx"/>
+        <parameter key="excel_file" value="F:/Dokumente/GitHub/rm_ds_proj/datasets/GDP.xlsx"/>
         <parameter key="sheet_selection" value="sheet number"/>
         <parameter key="sheet_number" value="1"/>
         <parameter key="imported_cell_range" value="A1"/>
@@ -31,10 +31,10 @@
         <parameter key="read_not_matching_values_as_missings" value="false"/>
       </operator>
       <operator activated="true" class="store" compatibility="9.10.001" expanded="true" height="68" name="Store GDP" width="90" x="179" y="85">
-        <parameter key="repository_entry" value="//Project/data/GDP"/>
+        <parameter key="repository_entry" value="../data/GDP"/>
       </operator>
       <operator activated="true" class="read_excel" compatibility="9.10.001" expanded="true" height="68" name="Read Excel Food Supply Quantity" width="90" x="45" y="187">
-        <parameter key="excel_file" value="/Users/viktoria/Desktop/Projekt_IntroToDS/Ohne Titel/datasets/FoodSupplyQuantity_kg.xlsx"/>
+        <parameter key="excel_file" value="F:/Dokumente/GitHub/rm_ds_proj/datasets/FoodSupplyQuantity_kg.xlsx"/>
         <parameter key="sheet_selection" value="sheet number"/>
         <parameter key="sheet_number" value="1"/>
         <parameter key="imported_cell_range" value="A1"/>
@@ -68,10 +68,10 @@
         <parameter key="read_not_matching_values_as_missings" value="false"/>
       </operator>
       <operator activated="true" class="store" compatibility="9.10.001" expanded="true" height="68" name="Store Food Suply" width="90" x="179" y="187">
-        <parameter key="repository_entry" value="//Project/data/FoodSupplyQuantity"/>
+        <parameter key="repository_entry" value="../data/FoodSupplyQuantity"/>
       </operator>
       <operator activated="true" class="read_excel" compatibility="9.10.001" expanded="true" height="68" name="Read Excel Life Expectancy" width="90" x="45" y="289">
-        <parameter key="excel_file" value="/Users/viktoria/Desktop/Projekt_IntroToDS/Ohne Titel/datasets/LifeExpecatncy.xlsx"/>
+        <parameter key="excel_file" value="F:/Dokumente/GitHub/rm_ds_proj/datasets/LifeExpecatncy.xlsx"/>
         <parameter key="sheet_selection" value="sheet number"/>
         <parameter key="sheet_number" value="1"/>
         <parameter key="imported_cell_range" value="A1"/>
@@ -89,10 +89,10 @@
         <parameter key="read_not_matching_values_as_missings" value="false"/>
       </operator>
       <operator activated="true" class="store" compatibility="9.10.001" expanded="true" height="68" name="Store Life Expectancy" width="90" x="179" y="289">
-        <parameter key="repository_entry" value="//Project/data/LifeExpectancy"/>
+        <parameter key="repository_entry" value="../data/LifeExpectancy"/>
       </operator>
       <operator activated="true" class="read_excel" compatibility="9.10.001" expanded="true" height="68" name="Read Excel Regions" width="90" x="45" y="391">
-        <parameter key="excel_file" value="/Users/viktoria/Desktop/Projekt_IntroToDS/Ohne Titel/datasets/Regions.xlsx"/>
+        <parameter key="excel_file" value="F:/Dokumente/GitHub/rm_ds_proj/datasets/Regions.xlsx"/>
         <parameter key="sheet_selection" value="sheet number"/>
         <parameter key="sheet_number" value="1"/>
         <parameter key="imported_cell_range" value="A1"/>
@@ -110,10 +110,10 @@
         <parameter key="read_not_matching_values_as_missings" value="false"/>
       </operator>
       <operator activated="true" class="store" compatibility="9.10.001" expanded="true" height="68" name="Store Regions" width="90" x="179" y="391">
-        <parameter key="repository_entry" value="//Project/data/Regions"/>
+        <parameter key="repository_entry" value="../data/Regions"/>
       </operator>
       <operator activated="true" class="read_excel" compatibility="9.10.001" expanded="true" height="68" name="Read Excel WHR 2019" width="90" x="45" y="493">
-        <parameter key="excel_file" value="/Users/viktoria/Desktop/Projekt_IntroToDS/Ohne Titel/datasets/WorldHappinessReport2019.xlsx"/>
+        <parameter key="excel_file" value="F:/Dokumente/GitHub/rm_ds_proj/datasets/WorldHappinessReport2019.xlsx"/>
         <parameter key="sheet_selection" value="sheet number"/>
         <parameter key="sheet_number" value="1"/>
         <parameter key="imported_cell_range" value="A1"/>
@@ -131,7 +131,7 @@
         <parameter key="read_not_matching_values_as_missings" value="false"/>
       </operator>
       <operator activated="true" class="store" compatibility="9.10.001" expanded="true" height="68" name="Store WHR" width="90" x="179" y="493">
-        <parameter key="repository_entry" value="//Project/data/WHR2019"/>
+        <parameter key="repository_entry" value="../data/WHR2019"/>
       </operator>
       <operator activated="true" class="retrieve" compatibility="9.10.001" expanded="true" height="68" name="Retrieve Food Supply" width="90" x="313" y="85">
         <parameter key="repository_entry" value="../data/FoodSupplyQuantity"/>
